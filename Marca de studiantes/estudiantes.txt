@@ -1,0 +1,12 @@
+error = (output - y)
+delta = error * deriv(z3)
+
+W3 = delta * a2
+b3 = delta
+
+W2 = delta * W3 * sig'(z2) * a1
+b2 = delta * W3 * sig'(z2)
+
+W1 = delta * W3 * sig'(z2) * W2 * sig'(z1) * X
+b1 = delta * W3 * sig'(z2) * W2 * sig'(z1)
+

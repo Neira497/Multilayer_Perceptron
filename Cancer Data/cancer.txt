@@ -1,0 +1,30 @@
+W4
+(output - y)
+(output - y) * a3
+
+b4
+(output - y)
+
+W3
+(output - y)
+(output - y) * W4 * sig'(z3) * a2
+
+b3
+(output - y)
+(output - y) * W4 * sig'(z3)
+
+W2
+(output - y)
+(output - y) * W4 * sig'(z3) * W3 * sig'(z2) * a1
+
+b2
+(output - y)
+(output - y) * W4 * sig'(z3) * W3 * sig'(z2)
+
+W1
+(output - y)
+(output - y) * W4 * sig'(z3) * W3 * sig'(z2) * W2 * sig'(z1) * X
+
+b1
+(output - y)
+(output - y) * W4 * sig'(z3) * W3 * sig'(z2) * W2 * sig'(z1)
